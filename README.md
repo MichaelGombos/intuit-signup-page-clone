@@ -4,7 +4,7 @@ This is a clone of the signup form for mint.com, I built this to practice buildi
 
 ## Live
 
-You can find the project live at [livelink] 🚀
+You can find the project live at https://michaelgombos.github.io/intuit-signup-page-clone/ 🚀
 
 ## Warning
 
