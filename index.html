@@ -12,7 +12,58 @@
   </head>
 
   <body>
-    Intuit
+    <header>
+      <img src="src\Images\intuit_logo.png" />
+      <nav>
+        <img src="src\Images\Mint_logo.png" />
+        <img src="src\Images\QuickBooks_logo.png" />
+        <img src="src\Images\TurboTax_logo.png" />
+      </nav>
+    </header>
+
+    <form action="/login" method="post">
+      <fieldset name="header" id="form-header">
+        <h1>Sign In</h1>
+        <p>One account for everything Intuit, including Mint</p>
+        <a href="#">Learn More</a>
+      </fieldset>
+      <fieldset name="user-info" id="user-info">
+        <label for="username">Email or user ID</label>
+        <input name="Username" id="username" type="text" />
+
+        <label for="password">Password</label>
+        <input name="passowrd" id="password" type="password" />
+      </fieldset>
+      <fieldset name="sign-in" id="sign-in">
+        <input type="checkbox" id="remember-me" />
+        <label for="remember-me"> Remember me</label>
+        <button name="sign-in-button">Sign in</button>
+        <p>
+          By clicking sign in, You agree to our <a href="#">Terms</a> and have
+          tead and acknowledge our <a href="#">Global Privacy Statement.</a>
+        </p>
+        <div class="divider"></div>
+      </fieldset>
+      <fieldset name="footer" id="form-footer">
+        <a href="#">I forgot my user ID or password</a>
+        <p>New to Intuit?<a href="#">Create an account.</a></p>
+      </fieldset>
+    </form>
+    <footer>
+      <div id="footer-menu">
+        <a href="#">Legal</a>
+        <a href="#">Privacy</a>
+        <a href="#">Security</a>
+      </div>
+      <p>
+        © 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        <br />
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </p>
+    </footer>
+
     <script src="src\main.js"></script>
   </body>
 </html>
