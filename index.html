@@ -13,7 +13,10 @@
 
   <body>
     <header>
-      <img src="src\Images\intuit_logo.png" />
+      <div id="logo">
+        <img src="src\Images\intuit_logo.png" />
+      </div>
+
       <nav>
         <img src="src\Images\Mint_logo.png" />
         <img src="src\Images\QuickBooks_logo.png" />
@@ -28,11 +31,15 @@
         <a href="#">Learn More</a>
       </fieldset>
       <fieldset name="user-info" id="user-info">
-        <label for="username">Email or user ID</label>
-        <input name="Username" id="username" type="text" />
-
-        <label for="password">Password</label>
-        <input name="passowrd" id="password" type="password" />
+        <div class="user-info-div">
+          <label for="username">Email or user ID</label>
+          <input name="Username" id="username" type="text" />
+        </div>
+        <div id="inputFill"></div>
+        <div class="user-info-div">
+          <label for="password">Password</label>
+          <input name="passowrd" id="password" type="password" />
+        </div>
       </fieldset>
       <fieldset name="sign-in" id="sign-in">
         <div id="remember-me-div">
