@@ -127,3 +127,146 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/*siteWide*/
+body {
+  background-color: #eceef1;
+}
+a {
+  color: #0077c5;
+  text-decoration: none;
+}
+/*header*/
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header nav {
+  margin-bottom: 15px;
+}
+
+/* main-form */
+form {
+  width: 318px;
+  padding: 30px;
+  margin-left: 50%;
+  transform: translate(-50%);
+
+  background-color: white;
+  border: 1px solid lightblue;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* form header */
+
+#form-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form-header h1 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#form-header p {
+  font-size: 14px;
+}
+#form-header a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* form user-info */
+
+#user-info {
+}
+#user-info label {
+  margin-top: 25px;
+  margin-bottom: 7px;
+}
+#user-info label,
+#user-info input {
+  display: block;
+  width: 318px;
+}
+
+/* form submit */
+
+#sign-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#remember-me-div {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  align-self: flex-start;
+}
+
+#sign-in button {
+  background-color: #0077c5;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 294px;
+  height: 44px;
+  padding: 6px 12px;
+}
+#sign-in p {
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #757575;
+}
+#sign-in a {
+  text-decoration: none;
+}
+.divider {
+  width: 100%;
+  background-color: #eceef1;
+  height: 1px;
+}
+
+/* form footer */
+#form-footer {
+  margin-top: 10px;
+}
+#form-footer p {
+  margin-top: 15px;
+}
+
+/*page footer */
+
+footer {
+  font-size: 12px;
+  color: #505050;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer-menu a {
+}
+#footer-menu a {
+  color: #505050;
+  display: inline-block;
+  margin: 13px 5px;
+}
+
+footer p {
+  text-align: center;
+}
